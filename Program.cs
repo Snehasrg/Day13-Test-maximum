@@ -6,12 +6,12 @@
         {
             //Console.WriteLine("Welcome to Find Maximum Problem using Generics");
 
-            float A = 40.5F;
-            float B = 50.6F;
-            float C = 80.9F;
+            string L = "Red";
+            string M = "Yellow";
+            string N = "Purple";
 
-            float val = MaxFloat<float>.MaxFloatNum(A, B, C);
-            Console.WriteLine("The greater Float Num  is " + val);
+            string val2 = MaxString<string>.MaxStringNum(L, M, N);
+            Console.WriteLine("The greater String is " + val2);
         }
     }
 }
