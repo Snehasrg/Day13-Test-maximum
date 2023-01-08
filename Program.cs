@@ -6,10 +6,10 @@
         {
             //Console.WriteLine("Welcome to Find Maximum Problem using Generics");
 
-            
 
-            int num = FindGenericVariable<int>.MaxNumber(9, 77, 200);
-            Console.WriteLine("The greater Integer number is : " + num);
+            Max3Parameter<int> obj = new Max3Parameter<int>(66, 99, 92);
+            obj.MaxMethod();
+
         }
     }
 }
