@@ -20,11 +20,11 @@
             float val1 = MaxFloat<float>.MaxFloatNum(A, B, C);
             Console.WriteLine("The greater Float Num  is " + val1);
 
-            string L = "Red";
-            string M = "Yellow";
-            string N = "Purple";
+            string P = "Red";
+            string Q = "Yellow";
+            string R = "Purple";
 
-            string val2 = MaxString<string>.MaxStringNum(L, M, N);
+            string val2 = MaxString<string>.MaxStringNum(P, Q, R);
             Console.WriteLine("The greater String is " + val2);
         }
     }
